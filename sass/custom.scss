@@ -1,0 +1,90 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+  
+  //nuevo color
+  // Create your own map
+  $custom-colors: (
+    "custom-color": rgb(240, 126, 18)
+  );
+  
+  // Merge the maps
+  $theme-colors: map-merge($theme-colors, $custom-colors);
+  
+  //-------
+
+
+li{
+    list-style: none
+}
+
+html{
+    height: 100%;
+}
+
+
+// $body-bg: rgb(14, 188, 84);
+
+.cont{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    background-color: beige;
+    
+    // background-color: rgb(132, 102, 102)
+}
+
+.footer {
+    margin-top: auto;
+    background-color: aqua;
+}
+
+.title{
+    font-size: 4rem;
+    color: red
+}
+//-----zoom img
+.img{
+    transition: 0.7s;
+    object-fit: cover;
+}
+.img:hover{
+    transform: scale(1.4);
+}
+
+
+
+
+//iconos
+.icons{
+font-size: 2rem
+}
+
+svg {
+    width: 200px;
+  }
+
+//----
+
+.ul {
+    list-style-type: none;
+    display:inline;
+    align-items: center;
+  justify-content: center;
+
+}
+ .ul li{
+    display: inline-block;
+    margin: 1em;
+   
+}
+
+
+.parrafo {
+    white-space: pre;
+  }
+
+  
+  @import "../node_modules/bootstrap/scss/bootstrap.scss";
+
