@@ -1,6 +1,7 @@
 import React from "react";
 import { Nav } from "react-bootstrap";
 import { NavLink } from 'react-router-dom';
+import { FaReact } from "react-icons/fa";
 
 export const Footer = () => {
   return (
@@ -8,15 +9,16 @@ export const Footer = () => {
       <div className="row p-3 bg-dark  text-secondary ">
         {/* logo */}
         <div className=" col-xs-12 col-md-6 col-lg-3 mb-2">
-          <img
+          <FaReact style={{"fontSize":"10rem"}}/>
+          {/* <img
             width="100px"
             className="rounded-circle"
             src="https://res.cloudinary.com/dewegl2jr/image/upload/v1666721949/fungi/mushroom-illustration-logo-vector-design-260nw-1747652519_e6d1qk.webp"
             alt=""
-          />
+          /> */}
         </div>
         {/* INFO */}
-        <div className=" col-6 col-md-6 col-lg-3 mb-2">
+        <div className=" col-6 col-md-6 col-lg-3 mb-2 mt-2">
           <p className="h4">Federico Prenollio</p>
           <p className="h6">Cruz del Eje - Córdoba</p>
           <p className="h6"> React Developer</p>
@@ -44,18 +46,18 @@ export const Footer = () => {
           </Nav.Link>
         </div>
         {/* contactos */}
-        <div className=" col-6 col-md-6 col-lg-3 mb-2">
-          <p>Contactos</p>
+        <div className=" col-6 col-md-6 col-lg-3 mb-2 mt-2">
+          {/* <p>Contactos</p> */}
           <Nav.Link
             className="mb-2"
-            href="https://walink.co/f04854"
+            href="https://walink.co/1f57f6"
             target="_blank"
             rel="noopener noreferrer"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="32"
-              height="32"
+              width="46"
+              height="46"
               fill="currentColor"
               classeName="bi bi-whatsapp"
               viewBox="0 0 16 16"
@@ -66,8 +68,8 @@ export const Footer = () => {
           <Nav.Link as={NavLink} className="mb-2" to="/contact">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="32"
-              height="32"
+              width="46"
+              height="46"
               fill="currentColor"
               classeName="bi bi-envelope-check"
               viewBox="0 0 16 16"

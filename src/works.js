@@ -124,7 +124,7 @@ export const works = [
     info: `App utilizando la API de traducción`,
     detail: [
       [
-        `App para traducir textos, ademas ofrece la posibilidad de escuchar la traducción. Tambien autedecta el idioma de origen`,
+        `App para traducir textos, ademas ofrece la posibilidad de escuchar la traducción. También autedecta el idioma de origen`,
       ],
     ],
     link: ["bi bi-browser-chrome", "https://traductor-psi.vercel.app/"],
@@ -288,5 +288,42 @@ export const works = [
       ["Express"],
     ],
     hability: ["Material Ui", "Yup", "Formik", "SweetAlert", "Heroku"],
+  },
+  {
+    id: 9,
+    name: "Reloj con datos del clima",
+    info: `Proyecto que permite ver la hora según tu ubicación con los datos del clima en tiempo real y buscar la hora de otra ciudad también con su datos meteorológicos y el mapa de la ubicacíon.`,
+    detail: [
+      [
+        `La app te pedira permisos para saber tu ubicación y te dará información del clima actual y su mapa. También tiene un buscador de otras ciudades. Si la hora en otros paises difiere a la real es por la información que brinda la API puediendo ser inexacta`,
+      ],
+    ],
+    link: ["bi bi-browser-chrome", "https://reloj-clima.vercel.app/"],
+    github: [
+      [
+        "bi bi-github",
+        "proyecto",
+        "https://github.com/Fedeprenollio/reloj_clima",
+      ],
+    ],
+    img: [
+      "https://res.cloudinary.com/dewegl2jr/image/upload/v1670263058/porfolio/reloj%2Bclima/imagen_m06te0.png",
+      
+      "https://res.cloudinary.com/dewegl2jr/image/upload/v1670264113/imagen2_bj3xbl.png",
+      
+    ],
+    tecno: [
+      // ["Node", "fa-brands fa-node"],
+      ["React", "fa-brands fa-react"],
+      [`"OpenWeatherMap"`, "TbApi"],
+      // ["Api externa", "TbApi"],
+      // ["MongoDb", "fas fa-database"],
+      // ["Sequelize", "fas fa-database"],
+      // ["Redux", "SiRedux"],
+
+      // ["Socket.io"],
+      // ["Express"],
+    ],
+    hability: ["Css", "Manejo de setInterval y fechas", "Inseción de mapas."  ],
   },
 ];

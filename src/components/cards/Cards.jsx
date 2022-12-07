@@ -5,7 +5,7 @@ import { Link, NavLink } from "react-router-dom";
 export const Cards = ({ work }) => {
   return (
     <div className="container  mt-5 col mb-1">
-      <Card className="bg-custom-color " style={{ width: "18rem" }}>
+      <Card className="bg-custom-color " style={{ "width": "18rem"}}>
         <NavLink to={`/works/${work.id}`} className="text-center">
           <Card.Img
             className="img  mt-2"
