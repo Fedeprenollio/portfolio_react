@@ -120,7 +120,7 @@ export const works = [
   },
   {
     id: 4,
-    name: "Traductor",
+    name: "Traductor (Por el momento, API KEY caida)",
     info: `App utilizando la API de traducción`,
     detail: [
       [
