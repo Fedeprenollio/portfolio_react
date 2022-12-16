@@ -121,10 +121,42 @@ export const works = [
   {
     id: 4,
     name: "Traductor ",
-    info: `App utilizando la API de traducción`,
+    info: `App utilizando la API de traducción. En caso de no responder, utilizar la otra`,
     detail: [
       [
         `App para traducir textos, ademas ofrece la posibilidad de escuchar la traducción. También autedecta el idioma de origen`,
+      ],
+    ],
+    link: ["bi bi-browser-chrome", "https://traductor-original.vercel.app/"],
+    github: [
+      [
+        "bi bi-github",
+        "proyecto",
+        "https://github.com/Fedeprenollio/traductor",
+      ],
+    ],
+    img: [
+      "https://res.cloudinary.com/dewegl2jr/image/upload/v1668022607/porfolio/traductor/Home_ihltzv.png",
+    ],
+    tecno: [
+      // ["Node", "fa-brands fa-node"],
+      ["React", "fa-brands fa-react"],
+      ["Api externa", "TbApi"],
+      // ["MongoDb", "fas fa-database"],
+      // ["Sequelize", "fas fa-database"],
+      // ["Redux", "SiRedux"],
+      //SiRedux
+      // ["Express"],
+    ],
+    hability: ["Css", "Bootstrap", "SweetAlert 2"],
+  },
+  {
+    id: 5,
+    name: "Traductor (Segunda versión) ",
+    info: `App utilizando otra API de traducción ya que la primera suele tener peticiones limitadas y problemas. Ésta no tiene detectado automatico de idioma de origen`,
+    detail: [
+      [
+        `App para traducir textos, ademas ofrece la posibilidad de escuchar la traducción. Ésta API carece  autedecta el idioma de origen`,
       ],
     ],
     link: ["bi bi-browser-chrome", "https://traductor-psi.vercel.app/"],
@@ -151,7 +183,7 @@ export const works = [
     hability: ["Css", "Bootstrap", "SweetAlert 2"],
   },
   {
-    id: 5,
+    id: 6,
     name: "Calculadora",
     info: `Calculadora Javascript`,
     detail: [
@@ -181,7 +213,7 @@ export const works = [
     hability: ["Css", "API context de react"],
   },
   {
-    id: 6,
+    id: 7,
     name: "Chat con socket.io",
     info: `Conociendo Socket.io`,
     detail: [
@@ -215,7 +247,7 @@ export const works = [
     hability: ["Uso de morgan", "Importancia de Cors", "Heroku"],
   },
   {
-    id: 7,
+    id: 8,
     name: "App de notas",
     info: `Pequeño proyecto para tomar contacto con MongoDB`,
     detail: [
@@ -255,7 +287,7 @@ export const works = [
     hability: ["Uso de morgan", "Importancia de Cors", "Heroku"],
   },
   {
-    id: 8,
+    id: 9,
     name: "E-commerce",
     info: `Proyecto grupal realizado en bootcamp "SoyHenry"    `,
     detail: [
@@ -290,7 +322,7 @@ export const works = [
     hability: ["Material Ui", "Yup", "Formik", "SweetAlert", "Heroku"],
   },
   {
-    id: 9,
+    id: 10,
     name: "Reloj con datos del clima",
     info: `Proyecto que permite ver la hora según tu ubicación con los datos del clima en tiempo real y buscar la hora de otra ciudad también con su datos meteorológicos y el mapa de la ubicacíon.`,
     detail: [
