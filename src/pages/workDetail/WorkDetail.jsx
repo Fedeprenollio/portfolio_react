@@ -6,7 +6,7 @@ import { FaBeer } from "react-icons/fa";
 import { Carousels } from "../../components/carrousel/Carousels";
 import { IconsTecnologies } from "../../components/iconsTecnologies/IconsTecnologies";
 import { GridDetail } from "../../components/gridDetail/GridDetail";
-import { useScrollToTop } from "../../../customHooks/useScrollToTop";
+import { useScrollToTop } from "../../../customHooks/useScrollToTop"; 
 
 export const WorkDetail = () => {
   useScrollToTop()
