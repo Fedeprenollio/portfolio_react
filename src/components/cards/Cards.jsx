@@ -16,7 +16,7 @@ export const Cards = ({ work }) => {
         </NavLink>
         <Card.Body>
           <Card.Title>{work.name}</Card.Title>
-          <Card.Text>{work.info}</Card.Text>
+          <Card.Text className=" text-truncate">{work.info}</Card.Text>
           <Nav.Link as={NavLink} to={`/works/${work.id}`}>
             Detalle
           </Nav.Link>

@@ -85,6 +85,40 @@ export const works = [
     ],
   },
   {
+    id: 11,
+    name: "Buscador de películas",
+    info: `App utilizando dos APIs, una para mostrar mediante un SCROLL INFINITO las películas por descubrir y otra para realizar búsquedas usando un DEBOUNCE de 500 ms en el input`,
+    detail: [[`App utilizando dos APIs, una para mostrar mediante un SCROLL INFINITO las películas por descubrir y otra para realizar búsquedas usando un DEBOUNCE de 500 ms en el input`], [`El scroll infinito lo implemente usando IntersectionObserver`], [`En el caso del debounse hice uso de una libreria  externa, just-debounce-it`]],
+    link: ["bi bi-browser-chrome", "https://react-practicas-buscardor-peliculas.vercel.app/"],
+    github: [
+      [
+        "bi bi-github",
+        "proyecto",
+        "https://github.com/Fedeprenollio/react_practicas/tree/main/projects/buscardor-peliculas",
+      ],
+    ],
+    img: [
+      "https://res.cloudinary.com/dewegl2jr/image/upload/v1682347667/porfolio/buscador-peli/buscador_zmkg7p.png",
+     
+    ],
+    tecno: [
+      // ["Node", "fa-brands fa-node"],
+      ["React", "fa-brands fa-react"],
+      ["Api externa", "TbApi"],
+      // ["MongoDb", "fas fa-database"],
+      // ["Sequelize", "fas fa-database"],
+      // ["Redux", "SiRedux"],
+      //SiRedux
+      // ["Express"],
+    ],
+    hability: [
+      "IntersectionObserver",
+      "Debounce",
+      "useMemo",
+      "useCallback"
+    ],
+  },
+  {
     id: 3,
     name: "React Rick y Morty",
     info: `App utilizando la API de Rick y Morty`,
