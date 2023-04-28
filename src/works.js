@@ -246,40 +246,40 @@ export const works = [
     ],
     hability: ["Css", "API context de react"],
   },
-  {
-    id: 7,
-    name: "Chat con socket.io",
-    info: `Conociendo Socket.io`,
-    detail: [
-      [
-        `Pequeña app donde se puede chatear entre todos los usuarios que tengan el link de la app`,
-      ],
-    ],
-    link: ["bi bi-browser-chrome", "https://chat-socket-v2.herokuapp.com/"],
-    github: [
-      [
-        "bi bi-github",
-        "proyecto",
-        "https://github.com/Fedeprenollio/chatSocket2",
-      ],
-    ],
-    img: [
-      "https://res.cloudinary.com/dewegl2jr/image/upload/v1668022604/porfolio/chat-socket.io/inicial_h0vmvu.jpg",
-      "https://res.cloudinary.com/dewegl2jr/image/upload/v1668022604/porfolio/chat-socket.io/chat_ps92wm.jpg",
-    ],
-    tecno: [
-      ["Node", "fa-brands fa-node"],
-      ["React", "fa-brands fa-react"],
-      // ["Api externa", "TbApi"],
-      // ["MongoDb", "fas fa-database"],
-      // ["Sequelize", "fas fa-database"],
-      // ["Redux", "SiRedux"],
-      //SiRedux
-      ["Socket.io"],
-      ["Express"],
-    ],
-    hability: ["Uso de morgan", "Importancia de Cors", "Heroku"],
-  },
+  // {
+  //   id: 7,
+  //   name: "Chat con socket.io",
+  //   info: `Conociendo Socket.io`,
+  //   detail: [
+  //     [
+  //       `Pequeña app donde se puede chatear entre todos los usuarios que tengan el link de la app`,
+  //     ],
+  //   ],
+  //   link: ["bi bi-browser-chrome", "https://chat-socket-v2.herokuapp.com/"],
+  //   github: [
+  //     [
+  //       "bi bi-github",
+  //       "proyecto",
+  //       "https://github.com/Fedeprenollio/chatSocket2",
+  //     ],
+  //   ],
+  //   img: [
+  //     "https://res.cloudinary.com/dewegl2jr/image/upload/v1668022604/porfolio/chat-socket.io/inicial_h0vmvu.jpg",
+  //     "https://res.cloudinary.com/dewegl2jr/image/upload/v1668022604/porfolio/chat-socket.io/chat_ps92wm.jpg",
+  //   ],
+  //   tecno: [
+  //     ["Node", "fa-brands fa-node"],
+  //     ["React", "fa-brands fa-react"],
+  //     // ["Api externa", "TbApi"],
+  //     // ["MongoDb", "fas fa-database"],
+  //     // ["Sequelize", "fas fa-database"],
+  //     // ["Redux", "SiRedux"],
+  //     //SiRedux
+  //     ["Socket.io"],
+  //     ["Express"],
+  //   ],
+  //   hability: ["Uso de morgan", "Importancia de Cors", "Heroku"],
+  // },
   {
     id: 8,
     name: "App de notas",
