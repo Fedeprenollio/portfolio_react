@@ -13,7 +13,6 @@ export const WorkDetail = () => {
   const { id } = useParams();
   console.log(works);
   const workDetail = works.find((w) => w.id.toString() === id.toString());
-  console.log(workDetail.link[0]);
 
   return (
     <div className="container-fluid">
@@ -34,7 +33,7 @@ export const WorkDetail = () => {
       <div className="container mb-3">
         {workDetail.github.map((el, index) => {
           return (
-            <>
+            <div key={el.id}>
               <i className={`${el[0]} me-3`}></i>
               <a
                 className="me-3 "
@@ -45,7 +44,7 @@ export const WorkDetail = () => {
               >
                 Ir al repo del {el[1]}
               </a>
-            </>
+            </div>
           );
         })}
       </div>
@@ -53,8 +52,8 @@ export const WorkDetail = () => {
       <Carousels workDetail={workDetail} />
 
       <div className="container">
-        {workDetail.detail.map((d) => {
-          return <p className="mt-1">{d}</p>;
+        {workDetail.detail.map((d,i) => {
+          return <p key={i} className="mt-1">{d}</p>;
         })}
       </div>
 
