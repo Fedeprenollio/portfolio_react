@@ -22,6 +22,8 @@ export const Works = () => {
      
      <h6>Follower twitter buttons</h6>
      <iframe height={"250px"} width={"100%"} src="https://is-fallowint-twitter.vercel.app/" frameborder="0"></iframe>
+     <h6>Ta-te-ti</h6>
+     <iframe height={"600px"} width={"100%"} src="https://ta-te-ti-blue.vercel.app/" frameborder="0"></iframe>
     </div>
     </div>
   )
