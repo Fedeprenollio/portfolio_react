@@ -4,7 +4,9 @@ import { works } from '../../works'
 
 export const Works = () => {
   return (
-    <div className='container row'>
+    <div className="container">
+     <div className='container row'>
+      <h3>Web completas</h3>
       {works.map((work,index)=>{
         return(
          
@@ -12,7 +14,15 @@ export const Works = () => {
         )
       })}
       <hr />
-     <iframe src="https://react-practicas-mouse-follower.vercel.app/" frameborder="0"></iframe>
+    </div>
+    <div className="container">
+      <h3>Componentes pequeños</h3>
+      <h6>Mouse follower</h6>
+     <iframe width={"100%"} src="https://react-practicas-mouse-follower.vercel.app/" frameborder="0"></iframe>
+     
+     <h6>Follower twitter buttons</h6>
+     <iframe height={"250px"} width={"100%"} src="https://is-fallowint-twitter.vercel.app/" frameborder="0"></iframe>
+    </div>
     </div>
   )
 }
