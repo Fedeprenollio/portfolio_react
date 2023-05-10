@@ -410,7 +410,7 @@ export const works = [
       ],
     ],
     img: [
-      "https://github.com/Fedeprenollio/portfolio_react/blob/main/public/crud.png",
+      "/home/federico/Documentos/portfolio_react/public/crud.png",
       
     ],
     tecno: [
