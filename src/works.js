@@ -425,6 +425,6 @@ export const works = [
       // ["Socket.io"],
       // ["Express"],
     ],
-    hability: ["Css", "Manejo de setInterval y fechas", "Inseción de mapas."  ],
+    hability: ["Redux-toolkit"  ],
   },
 ];
