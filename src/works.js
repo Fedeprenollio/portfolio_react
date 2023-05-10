@@ -393,7 +393,7 @@ export const works = [
     hability: ["Css", "Manejo de setInterval y fechas", "Inseción de mapas."  ],
   },
   {
-    id: 11,
+    id: 12,
     name: "CRUD Lista de Usuarios",
     info: `Proyecto CRUD para usuarios en una tabla.`,
     detail: [
