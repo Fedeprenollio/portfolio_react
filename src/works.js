@@ -283,7 +283,7 @@ export const works = [
   {
     id: 8,
     name: "App de notas",
-    info: `Pequeño proyecto para tomar contacto con MongoDB`,
+    info: "Pequeño proyecto para tomar contacto con MongoDB",
     detail: [
       [
         `Pequeña app donde se puede chatear entre todos los usuarios que tengan el link de la app`,
@@ -376,6 +376,41 @@ export const works = [
       "https://res.cloudinary.com/dewegl2jr/image/upload/v1670263058/porfolio/reloj%2Bclima/imagen_m06te0.png",
       
       "https://res.cloudinary.com/dewegl2jr/image/upload/v1670264113/imagen2_bj3xbl.png",
+      
+    ],
+    tecno: [
+      // ["Node", "fa-brands fa-node"],
+      ["React", "fa-brands fa-react"],
+      [`"OpenWeatherMap"`, "TbApi"],
+      // ["Api externa", "TbApi"],
+      // ["MongoDb", "fas fa-database"],
+      // ["Sequelize", "fas fa-database"],
+      // ["Redux", "SiRedux"],
+
+      // ["Socket.io"],
+      // ["Express"],
+    ],
+    hability: ["Css", "Manejo de setInterval y fechas", "Inseción de mapas."  ],
+  },
+  {
+    id: 11,
+    name: "CRUD Lista de Usuarios",
+    info: `Proyecto CRUD para usuarios en una tabla.`,
+    detail: [
+      [
+        "He utilizado Redux-toolkit, un conjunto de herramientas oficialpara el desarrollo eficiente de Redux. También he usado para el css Tremor, donde hacer una tabla estilizada fue muy fácil.",
+      ],
+    ],
+    link: ["bi bi-browser-chrome", "https://crud-redux-toolkit-liard.vercel.app/"],
+    github: [
+      [
+        "bi bi-github",
+        "proyecto",
+        "https://github.com/Fedeprenollio/CRUD-Redux_Toolkit",
+      ],
+    ],
+    img: [
+      "https://github.com/Fedeprenollio/portfolio_react/blob/main/public/crud.png",
       
     ],
     tecno: [
