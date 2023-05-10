@@ -409,8 +409,8 @@ export const works = [
         "https://github.com/Fedeprenollio/CRUD-Redux_Toolkit",
       ],
     ],
-    img: [
-      "https://github.com/Fedeprenollio/portfolio_react/blob/main/public/crud.png?raw=true",
+    img: [ 
+      "https://raw.githubusercontent.com/Fedeprenollio/portfolio_react/main/public/crud.png",
       
     ],
     tecno: [
