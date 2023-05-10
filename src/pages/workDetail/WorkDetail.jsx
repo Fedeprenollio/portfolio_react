@@ -18,7 +18,7 @@ export const WorkDetail = () => {
     <div className="container-fluid">
       <h1 className="display-1 ms-3">{workDetail.name}</h1>
 
-      <div className="container">
+      <div className="container-fluid">
         <i className={`${workDetail.link[0]} me-3`}></i>
         <a
           target="_blank"
@@ -30,7 +30,7 @@ export const WorkDetail = () => {
         </a>
       </div>
 
-      <div className="container mb-3">
+      <div className="container-fluid mb-3">
         {workDetail.github.map((el, index) => {
           return (
             <div key={el.id}>
@@ -51,7 +51,7 @@ export const WorkDetail = () => {
 
       <Carousels workDetail={workDetail} />
 
-      <div className="container">
+      <div className="container-fluid">
         {workDetail.detail.map((d,i) => {
           return <p key={i} className="mt-1">{d}</p>;
         })}
