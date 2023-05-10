@@ -416,11 +416,11 @@ export const works = [
     tecno: [
       // ["Node", "fa-brands fa-node"],
       ["React", "fa-brands fa-react"],
-      [`"OpenWeatherMap"`, "TbApi"],
+      // [`"OpenWeatherMap"`, "TbApi"],
       // ["Api externa", "TbApi"],
       // ["MongoDb", "fas fa-database"],
       // ["Sequelize", "fas fa-database"],
-      // ["Redux", "SiRedux"],
+      ["Redux-toolkit", "SiRedux"],
 
       // ["Socket.io"],
       // ["Express"],
