@@ -445,7 +445,7 @@ export const works = [
       ],
     ],
     img: [ 
-      "https://raw.github.com/Fedeprenollio/portfolio_react/blob/main/public/lista-usuarios-react-query.png",
+      "https://raw.githubusercontent.com/Fedeprenollio/portfolio_react/main/public/lista-usuarios-react-query.png",
       
     ],
     tecno: [
