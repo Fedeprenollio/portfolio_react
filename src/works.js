@@ -398,7 +398,7 @@ export const works = [
     info: `Proyecto CRUD para usuarios en una tabla.`,
     detail: [
       [
-        "He utilizado Redux-toolkit, un conjunto de herramientas oficialpara el desarrollo eficiente de Redux. También he usado para el css Tremor, donde hacer una tabla estilizada fue muy fácil.",
+        "He utilizado Redux-toolkit, un conjunto de herramientas oficial para el desarrollo eficiente de Redux. También he usado para el css Tremor, donde hacer una tabla estilizada fue muy fácil.",
       ],
     ],
     link: ["bi bi-browser-chrome", "https://crud-redux-toolkit-liard.vercel.app/"],
@@ -426,5 +426,40 @@ export const works = [
       // ["Express"],
     ],
     hability: ["Redux-toolkit"  ],
+  },
+  {
+    id: 13,
+    name: "Lista de Usuarios con React Query",
+    info: `Conociendo React Query!`,
+    detail: [
+      [
+        "Primer contacto con React Query. Increible como se hace simple el uso de estados asicronos. Lamentablemente la API que he usado no tiene un DELETE para usuarios, por lo que tuve que usar un useState para poder elimnarlos",
+      ],
+    ],
+    link: ["bi bi-browser-chrome", "https://lista-usuarios-react-query.vercel.app/"],
+    github: [
+      [
+        "bi bi-github",
+        "proyecto",
+        "https://github.com/Fedeprenollio/lista-usuarios-reactQuery",
+      ],
+    ],
+    img: [ 
+      "https://raw.github.com/Fedeprenollio/portfolio_react/blob/main/public/lista-usuarios-react-query.png",
+      
+    ],
+    tecno: [
+      // ["Node", "fa-brands fa-node"],
+      ["React", "fa-brands fa-react"],
+      // [`"OpenWeatherMap"`, "TbApi"],
+      ["Api externa", "TbApi"],
+      // ["MongoDb", "fas fa-database"],
+      // ["Sequelize", "fas fa-database"],
+      // ["Redux-toolkit", "SiRedux"],
+
+      // ["Socket.io"],
+      // ["Express"],
+    ],
+    hability: ["React query"  ],
   },
 ];
